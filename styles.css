@@ -1,0 +1,90 @@
+
+/* Variables
+  ============================= */
+  :root {
+    --clr-primary: #C271FF;
+    --clr-black:  #071629;
+    --clr-white: #ffffff;
+    --clr-blue: #071629;
+  
+    --text-color: var(--color-white);
+  
+  
+    --font-family-base: font-family: 'Source Sans Pro', sans-serif;
+
+  */
+    
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+   }
+/* Base
+      ============================= */
+      *, *:before, *:after {
+        box-sizing: border-box;
+      }
+      @media screen and (max-width: 768px) {
+        
+      }
+    
+      @media screen (max-width: 576px) {
+        
+      }
+/* Header
+      ============================= */
+   .hero-img {
+        background-image: url('images/pic_1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        max-width: 1.25rem;
+        height: 0.875rem;
+        cursor: pointer;
+        border-radius: .125rem;        
+      }
+
+ /* Section HERO
+      ============================= */
+    .btn-purple {
+      background-color: var(--clr-primary) !important;
+      border: var(--clr-primary);
+    }
+    .btn-purple:hover, .btn-purple:active {
+      background-color: var(--clr-primary);
+      border: var(--clr-primary);
+    }
+    
+    .highlight {
+      color: var(--clr-primary);
+      font-size: ;
+    }
+      
+    .jumbotron {
+      margin-top: 4rem;
+    }
+     
+
+    .jumbotron-title {
+      line-height: rem;
+      font-size: 7rem;
+      margin-top: .5rem;
+      margin-left: 1rem;
+      font-weight: var(--fw-bold);
+      font-family: var(--font-family-base);
+    }
+
+    /* Section "Carousel of quotes"
+      ============================= */
+      
+    .bg-purple {
+      background-color: var(--clr-primary);
+    }
+
+   
